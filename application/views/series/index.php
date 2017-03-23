@@ -1,5 +1,5 @@
 <div class="pull-right">
-	<a href="<?php echo site_url('series/add'); ?>" class="btn btn-success">Add</a> 
+	<a href="<?php echo site_url('series/add'); ?>" class="btn btn-success"><span class="glyphicon glyphicon-plus" aria-hidden="true"></a>
 </div>
 
 <table class="table table-striped table-bordered">
@@ -13,8 +13,8 @@
 		<td><?php echo $s['series_id']; ?></td>
 		<td><?php echo $s['series_title']; ?></td>
 		<td>
-            <a href="<?php echo site_url('series/edit/'.$s['series_id']); ?>" class="btn btn-info">Edit</a> 
-            <a href="<?php echo site_url('series/remove/'.$s['series_id']); ?>" class="btn btn-danger">Delete</a>
+            <a href="<?php echo site_url('series/edit/'.$s['series_id']); ?>" class="btn btn-info"><span class="glyphicon glyphicon-cog" aria-hidden="true"></a>
+            <a href="<?php echo site_url('series/remove/'.$s['series_id']); ?>" class="btn btn-danger"><span class="glyphicon glyphicon-remove" aria-hidden="true"></a>
         </td>
     </tr>
 	<?php } ?>
