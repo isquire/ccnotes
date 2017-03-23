@@ -17,10 +17,13 @@
 
 			<p><?php echo $note['note_body'] ?></p>
 
-		<a href="<?php echo base_url(); ?>">
-			<button type="button" class="btn btn-lgs btn-primary">Back</button>
-		</a>
-
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<a href="<?php echo base_url(); ?>">
+				<button type="button" class="btn btn-lgs btn-primary">Back</button>
+			</a>
 		</div>
 	</div>
 </div>

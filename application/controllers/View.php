@@ -22,10 +22,7 @@ class View extends CI_Controller {
 		public function show_note($note_id)
 		{
 			$data['note'] = $this->Note_model->get_note($note_id);
-			$this->load->model('Series_model');
 			$data['all_series'] = $this->Series_model->get_all_series();
-
-			$this->load->model('Speaker_model');
 			$data['all_speaker'] = $this->Speaker_model->get_all_speaker();
 
 			$this->load->view('templates/header');
