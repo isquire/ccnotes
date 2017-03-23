@@ -17,7 +17,7 @@ class Note_model extends CI_Model
   	function get_latest_note()
   	{
       $this->db->order_by('note_date');
-      return $this->db->get('notes' , 1)->result_array();    
+      return $this->db->get('notes' , 1)->result_array();
   	}
 
     /*
