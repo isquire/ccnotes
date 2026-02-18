@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "recipe-planner"
+version = "1.0.0"
+description = "Local-only Recipe Scanner, Meal Planner & Editing Engine"
+requires-python = ">=3.10"
+dependencies = [
+    "click>=8.1",
+    "fpdf2>=2.7",
+    "pytesseract>=0.3",
+    "Pillow>=10.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+]
+
+[project.scripts]
+recipe-planner = "recipe_planner.cli.app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

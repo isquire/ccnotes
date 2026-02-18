@@ -1,0 +1,69 @@
+{
+  "American": [
+    "burger", "hamburger", "hot dog", "mac and cheese", "macaroni",
+    "brisket", "bbq", "barbecue", "cornbread", "coleslaw",
+    "ranch", "buffalo", "meatloaf", "fried chicken", "biscuit",
+    "grits", "pulled pork", "ribs", "apple pie", "brownie"
+  ],
+  "Italian": [
+    "pasta", "spaghetti", "penne", "lasagna", "risotto",
+    "parmesan", "mozzarella", "basil", "oregano", "marinara",
+    "pesto", "prosciutto", "pancetta", "gnocchi", "bruschetta",
+    "focaccia", "ciabatta", "tiramisu", "cannoli", "ravioli",
+    "tortellini", "bolognese", "alfredo", "carbonara", "arrabbiata"
+  ],
+  "Mexican": [
+    "tortilla", "taco", "burrito", "enchilada", "salsa",
+    "guacamole", "jalapeño", "chipotle", "cumin", "cilantro",
+    "chili", "queso", "refried beans", "lime", "avocado",
+    "tamale", "quesadilla", "mole", "chorizo", "tostada",
+    "fajita", "pozole", "elote", "cotija"
+  ],
+  "Asian": [
+    "soy sauce", "ginger", "sesame", "tofu", "rice",
+    "noodles", "wok", "stir-fry", "teriyaki", "wasabi",
+    "miso", "ramen", "udon", "soba", "dumpling",
+    "spring roll", "egg roll", "bok choy", "bamboo shoots",
+    "fish sauce", "oyster sauce", "hoisin", "sriracha",
+    "kimchi", "bibimbap", "pad thai", "pho", "banh mi"
+  ],
+  "Mediterranean": [
+    "olive oil", "feta", "hummus", "tahini", "pita",
+    "lemon", "garlic", "cucumber", "tomato", "eggplant",
+    "chickpea", "couscous", "tzatziki", "kalamata",
+    "artichoke", "sun-dried tomato", "capers", "dill"
+  ],
+  "Indian": [
+    "curry", "turmeric", "cumin", "coriander", "garam masala",
+    "cardamom", "naan", "basmati", "ghee", "paneer",
+    "tikka", "masala", "dal", "lentil", "chutney",
+    "saffron", "biryani", "samosa", "tandoori", "raita",
+    "vindaloo", "korma", "madras", "chapati", "roti"
+  ],
+  "Middle Eastern": [
+    "hummus", "tahini", "za'atar", "sumac", "pomegranate",
+    "lamb", "shawarma", "falafel", "flatbread", "saffron",
+    "rose water", "pistachio", "almond", "dates",
+    "harissa", "labneh", "baba ganoush", "tabbouleh",
+    "fattoush", "kibbeh", "baklava"
+  ],
+  "African": [
+    "peanut", "yam", "plantain", "cassava", "okra",
+    "berbere", "injera", "teff", "jollof", "suya",
+    "peri peri", "piri piri", "fufu", "egusi",
+    "tagine", "couscous", "harissa", "ras el hanout"
+  ],
+  "Latin American": [
+    "black beans", "plantain", "yuca", "empanada",
+    "arepas", "chimichurri", "dulce de leche", "ceviche",
+    "coconut milk", "aji", "sofrito", "mango",
+    "papaya", "passionfruit", "annatto", "epazote"
+  ],
+  "European": [
+    "butter", "cream", "wine", "shallot", "thyme",
+    "rosemary", "bay leaf", "mustard", "baguette",
+    "crepe", "soufflé", "roux", "béchamel",
+    "schnitzel", "bratwurst", "sauerkraut", "pierogi",
+    "paprika", "dill", "smoked salmon", "crème fraîche"
+  ]
+}
